@@ -1,0 +1,43 @@
+body{
+  font-family:Arial, Helvetica, sans-serif
+}
+
+.componentes{
+  height: 500px;
+  display:grid;
+  grid-template-areas:'cabecera cabecera'
+                      'menu contenido-lateral'
+                      'footer footer';
+
+  grid-template-columns: 80% auto;
+  grid-template-rows: 20% auto 20%;
+}
+
+.cajas{
+  background-color:aqua;
+  border: 1px solid black;
+}
+
+.c1{
+   grid-area:cabecera;
+   
+  background-color:antiquewhite;
+}
+
+.c2{
+   grid-area:menu;
+   
+  background-color:cadetblue;
+}
+
+.c3{
+   grid-area:lateral;
+ 
+   background-color:chocolate;
+}
+
+.c4{
+  grid-area:footer; 
+  background-color:lightblue;
+}
+
