@@ -11,9 +11,10 @@ function Item({ nombre, miembros }) {
         <h2>Lista de miembros</h2>
         <ul class="listaNazi">
           <Item miembros={true} nombre={"del Pino Nicolas"} />
-          <Item miembros={true} nombre={"Posadas Agustin"} />
+          <Item miembros={true} nombre={"Juan Sandoval"} />
           <Item miembros={true} nombre={"Reartes Bruno"} />
-          <Item miembros={true} nombre={"Goku"} />
+          <Item miembros={true} nombre={"Posadas Agustin"} />
+          <Item miembros={false} nombre={"Goku"} />
           <Item miembros={false} nombre={"Naruto"} />
           <Item miembros={false} nombre={"Kaneki"} />
           <Item miembros={false} nombre={"Nacho"} />
